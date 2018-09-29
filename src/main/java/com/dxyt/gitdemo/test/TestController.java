@@ -10,6 +10,7 @@ public class TestController {
     public String testGit(){
         System.out.println("安红飞");
         System.out.println("dfdf");
+        System.out.println("dfgfrewtgf");
         return "";
     }
 
