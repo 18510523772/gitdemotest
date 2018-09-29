@@ -13,7 +13,16 @@ public class TestController {
         System.out.println("dfgfrewtgf");
         System.out.println("dfdsdfsdf");
         System.out.println("rtretger");
+        return "";
+    }
 
+    @RequestMapping("/testGit")
+    public String testGit(String str){
+        System.out.println("安红飞");
+        System.out.println("dfdf");
+        System.out.println("dfgfrewtgf");
+        System.out.println("dfdsdfsdf");
+        System.out.println("rtretger");
         return "";
     }
 
