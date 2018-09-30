@@ -18,7 +18,7 @@ public class TestController {
 
     @RequestMapping("/testGit")
     public String testGit(String str){
-        System.out.println("安红飞");
+        System.out.println("安红");
         System.out.println("dfdf");
         System.out.println("dfgfrewtgf");
         System.out.println("dfdsdfsdf");
