@@ -26,7 +26,7 @@ public class TestController {
         System.out.println("dfgfrewtgf");
         System.out.println("dfdsdfsdf");
         System.out.println("测试提交冲突");
-        System.out.println("测试提交冲突");
+        System.out.println("测试提交");
         System.out.println("测试提交冲突");
         System.out.println("rtretger");
         System.out.println("rtretger");
