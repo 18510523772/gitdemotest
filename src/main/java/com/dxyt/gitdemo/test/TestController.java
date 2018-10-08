@@ -17,4 +17,18 @@ public class TestController {
         return "";
     }
 
+    @RequestMapping("/testGit")
+    public String testGit(String str){
+        System.out.println("安红");
+        System.out.println("dfdf");
+        System.out.println("dfgfrewtgf");
+        System.out.println("dfdsdfsdf");
+        System.out.println("rtretger");
+
+
+
+
+        return "";
+    }
+
 }
