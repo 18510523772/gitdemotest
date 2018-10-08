@@ -29,10 +29,9 @@ public class TestController {
         System.out.println("测试提交冲突");
         System.out.println("测试提交冲突");
         System.out.println("rtretger");
-
-
-
-
+        System.out.println("rtretger");
+        System.out.println("rtretger");
+        System.out.println("rtretger");
         return "";
     }
 
