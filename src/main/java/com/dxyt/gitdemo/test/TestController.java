@@ -19,7 +19,7 @@ public class TestController {
         return "";
     }
 
-    @RequestMapping("/testGit")
+    @RequestMapping("/testGit2")
     public String testGit(String str){
         System.out.println("安红");
         System.out.println("dfdf");
