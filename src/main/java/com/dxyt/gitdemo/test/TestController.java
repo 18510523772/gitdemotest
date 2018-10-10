@@ -5,22 +5,42 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class TestController {
-
+    
+    /**
+     * 方法名称：testGit
+     * 方法描述：
+     * 创建人：安红飞（anhongfei@telecomyt.com.cn）
+     * 创建时间：2018/10/10 10:53 
+     * 修改人：安红飞（anhongfei@telecomyt.com.cn）
+     * 修改时间：2018/10/10 10:53
+     * 修改备注：
+     * 方法参数： []
+     * 方法返回值： java.lang.String
+     **/
+    
     @RequestMapping("/testGit")
     public String testGit(){
         System.out.println("安红地方");
         System.out.println("dfdf");
-
         System.out.println("dfgfrewtgf");
-
-
         System.out.println("dfdsdfsdf");
         System.out.println("rtretger");
         return "";
     }
-
+    
+    /**
+     * 方法名称：testGit2
+     * 方法描述：
+     * 创建人：安红飞（anhongfei@telecomyt.com.cn）
+     * 创建时间：2018/10/10 10:52
+     * 修改人：安红飞（anhongfei@telecomyt.com.cn）
+     * 修改时间：2018/10/10 10:52
+     * 修改备注：
+     * 方法参数： [str]
+     * 方法返回值： java.lang.String
+     **/
     @RequestMapping("/testGit2")
-    public String testGit(String str){
+    public String testGit2(String str){
         System.out.println("安红");
         System.out.println("dfdf");
         System.out.println("dfgfrewtgf");
