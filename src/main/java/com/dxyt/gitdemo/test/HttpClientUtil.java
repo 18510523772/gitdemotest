@@ -34,6 +34,7 @@ import java.util.Map;
  **/
 public class HttpClientUtil {
 
+
     //日志打印
     private static Logger log= (Logger) LoggerFactory.getLogger(HttpClientUtil.class);
     // 默认字符集
@@ -62,7 +63,6 @@ public class HttpClientUtil {
         CloseableHttpClient client = HttpClients.createDefault();
         // 创建HttpPost对象
         HttpPost httpPost = new HttpPost();
-
         try {
             // 设置请求地址
             httpPost.setURI(new URI(url));
@@ -88,7 +88,6 @@ public class HttpClientUtil {
             } else {
                 log.error("响应失败，状态码：" + status);
             }
-
         } catch (Exception e) {
             log.error("发送post请求失败", e);
         } finally {
@@ -255,5 +254,7 @@ public class HttpClientUtil {
     public static String sendGet(String url){
         return sendGet(url,null,ENCODING);
     }
+
+
 }
 
